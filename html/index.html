@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet"> 
+
+    <!-- Icon Font Stylesheet -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Ruge+Boogie&display=swap" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="../assets/lib/animate/animate.min.css" rel="stylesheet">
+    <link href="../assets/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="../assets/css/style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="dropup position-fixed end-0 bottom-0 mb-5 me-0" style="z-index: 10000;">
+        <div class="btn p-0" data-bs-toggle="dropdown" aria-expanded="false">
+            <img src="../assets/img/chat-bot-removebg-preview.png" alt="" style="width: 150px;">
+        </div>
+        <div class="dropdown-menu border-0" style="background-color: transparent !important;">
+            <a href="#" class="dropdown-item rounded-circle btn-light d-flex justify-content-center text-center" style="position: relative;left: 48px; background-color: #ffffff !important; width: 70px;height: 70px; padding: 20px;" data-bs-toggle="tooltip" data-bs-placement="left" title="Liên hệ hotline 0917769652">
+                <img src="../assets/img/white-phone-icon-png--clipart-best-30.png" alt="" class="p-0" style="width: 50px;">
+            </a>
+            <a href="#" class="dropdown-item rounded-circle btn-light d-flex justify-content-center text-center mb-3 mt-3" style="position: relative;left: 48px; background-color: #ffffff !important; width: 70px;height: 70px; padding: 20px;" data-bs-toggle="tooltip" data-bs-placement="left" title="Đăng kí tư vấn">
+                <img src="../assets/img/book-stack-icon--icon-search-engine-16.png" alt="" class="p-0" style="width: 50px;">
+            </a>
+            <a href="#" class="dropdown-item rounded-circle btn-light p-0 d-flex justify-content-center text-center" style="position: relative;left: 48px; background-color: #ffffff !important; width: 70px;" data-bs-toggle="tooltip" data-bs-placement="left" title="Zalo">
+                <img src="../assets/img/zalo-logo.png" alt="" class="p-0" style="width: 70px;">
+            </a>
+        </div>
+    </div>
+    <div class="container-fluid p-0 text-center" style="background-image: url(../assets/img/rm373batch13-085.jpg);background-size: cover; height: 100vh">
+        <nav class="navbar navbar-expand-lg px-5 py-4 position-relative" style="height: 48px; box-sizing: content-box;">
+            <a href="#" class="p-0 text-white">
+                <img src="../assets/img/linkedin-logo-png-file-11660255202tssvhgtrlr-removebg-preview.png" alt="logo" style="height:150px;">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="fa fa-bars"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse" style="height: 48px;">
+                <div class="navbar-nav rounded-pill" style="background-color: rgba(0, 0, 0, 00.2); height: 100%;">
+                    <a href="#" class="nav-item d-flex align-items-center" style="height: 48px;">Trang chủ</a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle p-0" data-bs-toggle="dropdown" style="height: 48px;">Khóa học</a>
+                        <div class="dropdown-menu m-0" style="background-color: rgba(0, 0, 0, 00.7) !important;">
+                            <a href="#" class="dropdown-item pt-3">IELTS</a>
+                            <a href="#" class="dropdown-item pt-3">TOIEC</a>
+                            <a href="#" class="dropdown-item pt-3">HSK</a>
+                            <a href="#" class="dropdown-item pt-3">Preptalk English</a>
+                            
+                        </div>
+                    </div>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle p-0" data-bs-toggle="dropdown" style="height: 48px;">Kiểm tra đầu vào</a>
+                        <div class="dropdown-menu m-0" style="background-color: rgba(0, 0, 0, 00.7) !important;">
+                            <a href="#" class="dropdown-item pt-3">IELTS</a>
+                            <a href="#" class="dropdown-item pt-3">TOIEC</a>
+                        </div>
+                    </div>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle p-0" data-bs-toggle="dropdown" style="height: 48px;">Luyện đề</a>
+                        <div class="dropdown-menu m-0" style="background-color: rgba(0, 0, 0, 00.7) !important;">
+                            <a href="#" class="dropdown-item pt-3">Luyện đề IELTS</a>
+                            <a href="#" class="dropdown-item pt-3">Luyện đề THPT</a>
+                            <a href="#" class="dropdown-item pt-3">Luyện đề TOIEC</a>
+                        </div>
+                    </div>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle p-0" data-bs-toggle="dropdown" style="height: 48px;">Blog</a>
+                        <div class="dropdown-menu dropdown-menu-end m-0 p-0 full-width" style="width: 100vw !important; height: 200vh !important; position: fixed; top: 72px; left: 0; right: 0; background-color: rgba(0, 0, 0, 00.8) !important;">
+                            <div class="row p-4">
+                                <div class="col-6">
+                                    <div class="row">
+                                        <div class="col-3">
+                                            <div class="dropdown-header text-white" style="font-size: small;">
+                                                TIẾNG ANH
+                                            </div>
+                                            <a href="#" class="dropdown-item pt-3">IELTS</a>
+                                            <a href="#" class="dropdown-item pt-3">TOEIC</a>
+                                            <a href="#" class="dropdown-item pt-3">VSTEP</a>
+                                            <a href="#" class="dropdown-item pt-3">Du học<a>
+                                            <a href="#" class="dropdown-item pt-3">SAT</a>
+                                            <a href="#" class="dropdown-item pt-3">THCS</a>
+                                            <a href="#" class="dropdown-item pt-3">THPT</a>
+                                            <a href="#" class="dropdown-item pt-3">APTIS</a>
+                                            <a href="#" class="dropdown-item pt-3">Tiếng Anh giao tiếp</a>
+                                        </div>
+                                        <div class="col-3">
+                                            <div class="dropdown-header text-white" style="font-size: small;">
+                                                TIẾNG TRUNG
+                                            </div>
+                                            <a href="#" class="dropdown-item pt-3">HSK</a>
+                                            <a href="#" class="dropdown-item pt-3">Tiếng Trung giao tiếp</a>
+                                        </div>
+                                        <div class="col-3">
+                                            <div class="dropdown-header text-white" style="font-size: small;">
+                                                TIẾNG HÀN
+                                            </div>
+                                            <a href="#" class="dropdown-item pt-3">TOPIk</a>
+                                            <a href="#" class="dropdown-item pt-3">Tiếng Hàn giao tiếp</a>
+                                        </div>
+                                        <div class="col-3">
+                                            <div class="dropdown-header text-white" style="font-size: small;"> 
+                                                TIẾNG NHẬT
+                                            </div>
+                                            <a href="#" class="dropdown-item pt-3">JLPT</a>                                        
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="col-6">
+                                    <div class="row">
+                                        <div class="col-6 pb-4" style="max-width: 100%;">
+                                            <a href="#" class="blog">
+                                                <img src="../assets/img/blog-1.png" alt="" class="w-100 rounded">
+                                                <div class="title-blog fw-bold" style="padding: 10px 0; color: rgba(255, 255, 255, 0.7);">IDP và BC xác nhận dừng thi IELTS trên giấy từ 29/03/2025</div>
+                                                <div class="content-blog" style="display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; text-overflow: ellipsis; overflow: hidden; font-size:smaller; color: rgba(255, 255, 255, 0.7);">
+                                                    Mình 31 tuổi, chưa vợ, đi làm lương 21 triệu, ở tỉnh lẻ. Mức lương vậy không thấp thậm chí khá cao so với mọi người ở quê mình, 
+                                                    nhưng tháng nào mình cũng tiêu hết tiền, dù ăn uống bố mẹ nuôi, nhà ở chung với bố mẹ. Bố mẹ cũng làm nông thôi, nhà vẫn nhà 
+                                                    cấp 4, nắng thì nóng, mưa thì dột.
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-6 pb-4">
+                                            <a href="#" class="blog">
+                                                <img src="../assets/img/blog-1.png" alt="" class="w-100 rounded">
+                                                <div class="title-blog" style="padding: 10px 0; color: rgba(255, 255, 255, 0.7);">IDP và BC xác nhận dừng thi IELTS trên giấy từ 29/03/2025</div>
+                                                <div class="content-blog" style="display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; max-width: 100%; text-overflow: ellipsis; overflow: hidden; font-size:smaller; color: rgba(255, 255, 255, 0.7);">
+                                                    Mình 31 tuổi, chưa vợ, đi làm lương 21 triệu, ở tỉnh lẻ. Mức lương vậy không thấp thậm chí khá cao so với mọi người ở quê mình, 
+                                                    nhưng tháng nào mình cũng tiêu hết tiền, dù ăn uống bố mẹ nuôi, nhà ở chung với bố mẹ. Bố mẹ cũng làm nông thôi, nhà vẫn nhà 
+                                                    cấp 4, nắng thì nóng, mưa thì dột.
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-6 pb-4">
+                                            <a href="#" class="blog">
+                                                <img src="../assets/img/blog-1.png" alt="" class="w-100 rounded">
+                                                <div class="title-blog" style="padding: 10px 0; color: rgba(255, 255, 255, 0.7);">IDP và BC xác nhận dừng thi IELTS trên giấy từ 29/03/2025</div>
+                                                <div class="content-blog" style="display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; max-width: 100%; text-overflow: ellipsis; overflow: hidden; font-size:smaller; color: rgba(255, 255, 255, 0.7);">
+                                                    Mình 31 tuổi, chưa vợ, đi làm lương 21 triệu, ở tỉnh lẻ. Mức lương vậy không thấp thậm chí khá cao so với mọi người ở quê mình, 
+                                                    nhưng tháng nào mình cũng tiêu hết tiền, dù ăn uống bố mẹ nuôi, nhà ở chung với bố mẹ. Bố mẹ cũng làm nông thôi, nhà vẫn nhà 
+                                                    cấp 4, nắng thì nóng, mưa thì dột.
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle p-0" data-bs-toggle="dropdown">Tin tức</a>
+                        <div class="dropdown-menu dropdown-menu-end m-0 p-0 full-width" style="background-color: rgba(0, 0, 0, 00.8) !important; width: 100vw !important; height: 200vh !important; position: fixed; top:72px; left: 0; right: 0;">
+                            <div class="row p-4">
+                                <div class="col-3">
+                                    <a href="#" class="dropdown-item pt-3">Vinh danh học viên</a>
+                                    <a href="#" class="dropdown-item pt-3">Sự kiện-Khuyến mãi</a>
+                                    <a href="#" class="dropdown-item pt-3">Tuyển dụng</a>
+                                </div>
+                                <div class="col-3">
+                                    <a href="#">
+                                        <img src="../assets/img/prep_tham_du_chung_ket_global_edtech_startup_awards_2024_c9f184aa49.jpg" alt="" class="w-100 rounded">
+                                        <div class="title-blog text-white pt-3" style="display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; max-width: 100%; text-overflow: ellipsis; overflow: hidden; padding: 10px 0;;">TỰ HÀO PREP - ĐAI DIỆN ĐÔNG NAM Á THAM GIA GLOBAL EDTECH</div>
+                                        <div class="content-blog pt-2" style="display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; max-width: 100%; text-overflow: ellipsis; overflow: hidden; font-size:smaller; color: rgba(255, 255, 255, 0.7);">
+                                            Mình 31 tuổi, chưa vợ, đi làm lương 21 triệu, ở tỉnh lẻ. Mức lương vậy không thấp thậm chí khá cao so với mọi người ở quê mình, 
+                                            nhưng tháng nào mình cũng tiêu hết tiền, dù ăn uống bố mẹ nuôi, nhà ở chung với bố mẹ. Bố mẹ cũng làm nông thôi, nhà vẫn nhà 
+                                            cấp 4, nắng thì nóng, mưa thì dột.
+                                        </div>
+                                        <div class="pt-3" style="color: rgba(255, 255, 255, 0.7); font-size: x-small;">
+                                            22/11/2024
+                                        </div>
+                                    </a>
+                                    
+                                </div>
+                                <div class="col-3">
+                                    <a href="#">
+                                        <img src="../assets/img/talkshow_toi_se_la_ai_trong_tuong_lai_prep_9a4a870be4.png" alt="" class="w-100 rounded">
+                                        <div class="title-blog text-white pt-3" style="display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; max-width: 100%; text-overflow: ellipsis; overflow: hidden; padding: 10px 0;;">TỰ HÀO PREP - ĐAI DIỆN ĐÔNG NAM Á THAM GIA GLOBAL EDTECH</div>
+                                        <div class="content-blog pt-2" style="display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; max-width: 100%; text-overflow: ellipsis; overflow: hidden; font-size:smaller; color: rgba(255, 255, 255, 0.7);">
+                                            Mình 31 tuổi, chưa vợ, đi làm lương 21 triệu, ở tỉnh lẻ. Mức lương vậy không thấp thậm chí khá cao so với mọi người ở quê mình, 
+                                            nhưng tháng nào mình cũng tiêu hết tiền, dù ăn uống bố mẹ nuôi, nhà ở chung với bố mẹ. Bố mẹ cũng làm nông thôi, nhà vẫn nhà 
+                                            cấp 4, nắng thì nóng, mưa thì dột.
+                                        </div>
+                                        <div class="pt-3" style="color: rgba(255, 255, 255, 0.7); font-size: x-small;">
+                                            09/11/2024
+                                        </div>
+                                    </a>
+                                    
+                                </div>
+                                <div class="col-3">
+                                    <a href="#">
+                                        <img src="../assets/img/vinh_danh_hvdc_ielts_thang_11_prep_a8e533bf7d.png" alt="" class="w-100 rounded">
+                                        <div class="p-2 rounded" style="background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0,0,0,0.9)); position: relative; top:-23%">
+                                            <div class="title-blog text-white" style="display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; max-width: 100%; text-overflow: ellipsis; overflow: hidden; padding: 10px 0;;">
+                                                Chào mừng 25 bạn điểm cao IELTS xuất sắc trong tháng 11
+                                            </div>
+                                            <div class="pt-3 pb-4 " style="color: rgba(255, 255, 255, 0.7); font-size: small;">
+                                                07/03/2024
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn btn-primary rounded-pill text-white py-2 px-4 flex-wrap flex-sm-shrink-0">Bắt đầu</a>
+        </nav>
+        <div class="container text-white d-flex justify-content-center align-items-center text-center" style="font-family: 'Roboto', serif; font-size: 70px; font-weight: 900; padding: 100px 0; width: 50%;">
+            Nền tảng Học và Luyện thi thông minh
+        </div>
+        <a class="btn btn-light rounded-pill text-white py-3 px-5  text-center" href="#" style="color: #0071F9 !important; font-size: xx-large;">KHÁM PHÁ NGAY</a>
+    </div>
+
+    <div class="container-fluid position-relative py-5" style="background-color: #F7FAFC;">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-6" style="font-family: 'Roboto', serif; font-size: 50px; color: #233876; font-weight: 900;">
+                    Tinh thông mọi ngôn ngữ với chương trình đào tạo chất lượng cao
+                </div>
+                <div class="col-6 d-flex justify-content-end align-items-end" style="font-family: 'Roboto', serif; font-size: 18px; color: #233876;">
+                    <p style="max-width: 350px;">Học ngoại ngữ thật dễ dàng với lộ trình Học & Luyện Thi toàn diện, được cá nhân hóa riêng biệt.</p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4 col-xl-3 " style=" border-radius: 10%;">
+                    <div class="certificates btn text-white p-4" style="background: linear-gradient(to bottom right, #0040E8, #339FF5); border-radius: 10%;">
+                        <div class="fw-bold fs-4" style="font-family: 'Roboto', serif;">
+                            IELTS
+                        </div>
+                        <div class="pt-2" style="padding-bottom: 50%;">
+                            Học toàn diện 4 kĩ năng, chấm chữa cặn kẽ cùng giáo viên, luyện tập thông minh với phòng ảo Prep AI.
+                        </div>
+                        <div class="d-flex justify-content-end align-items-end p-2">
+                            <div class="aaaaa btn border rounded-circle text-white" style="font-size: x-large; width: 50px; height: 50px;">
+                                <i class="bi bi-arrow-right"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 " style=" border-radius: 10%;">
+                    <div class="certificates btn text-white p-4" style="background: linear-gradient(to bottom right, #ff0909, #f75252); border-radius: 10%;">
+                        <div class="fw-bold fs-4" style="font-family: 'Roboto', serif;">
+                            IELTS
+                        </div>
+                        <div class="pt-2" style="padding-bottom: 50%;">
+                            Học toàn diện 4 kĩ năng, chấm chữa cặn kẽ cùng giáo viên, luyện tập thông minh với phòng ảo Prep AI.
+                        </div>
+                        <div class="d-flex justify-content-end align-items-end p-2">
+                            <div class=" btn border rounded-circle text-white" style="font-size: x-large; width: 50px; height: 50px;">
+                                <i class="bi bi-arrow-right"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 " style=" border-radius: 10%;">
+                    <div class="certificates btn text-white p-4" style="background: linear-gradient(to bottom left, #008829, #00D340); border-radius: 10%;">
+                        <div class="fw-bold fs-4" style="font-family: 'Roboto', serif;">
+                            IELTS
+                        </div>
+                        <div class="pt-2" style="padding-bottom: 50%;">
+                            Học toàn diện 4 kĩ năng, chấm chữa cặn kẽ cùng giáo viên, luyện tập thông minh với phòng ảo Prep AI.
+                        </div>
+                        <div class="d-flex justify-content-end align-items-end p-2">
+                            <div class=" btn border rounded-circle text-white" style="font-size: x-large; width: 50px; height: 50px;">
+                                <i class="bi bi-arrow-right"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 " style=" border-radius: 10%;">
+                    <div class="certificates btn text-white p-4" style="background: linear-gradient(to bottom left, #FFA600, #FFD324); border-radius: 10%;">
+                        <div class="fw-bold fs-4" style="font-family: 'Roboto', serif;">
+                            IELTS
+                        </div>
+                        <div class="pt-2" style="padding-bottom: 50%;">
+                            Học toàn diện 4 kĩ năng, chấm chữa cặn kẽ cùng giáo viên, luyện tập thông minh với phòng ảo Prep AI.
+                        </div>
+                        <div class="d-flex justify-content-end align-items-end p-2" style="box-sizing: border-box;">
+                            <div class=" btn border rounded-circle text-white" style="font-size: x-large; width: 50px; height: 50px;">
+                                <i class="bi bi-arrow-right"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid text-center py-5" style="background-color: #F7FAFC; color: #233876;">
+        <div class="container" style="font-size: 50px; font-weight: 900; max-width: 700px;">
+            Tối ưu hành trình Học & Luyện Thi với 3 bước dễ dàng
+        </div>
+        <div class="container" style="font-size: 20px; max-width: 500px;">
+            Prep sẽ luôn đồng hành cùng bạn xuyên suốt hành trình khổ luyện cho đến ngày "hái quả ngọt"
+        </div>
+    </div>
+
+    <div class="container-fluid py-5" style="background-color: #F7FAFC;">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col" style="line-height: 60px;">
+                    <p class="pt-4 m-0" style="color: #233876; font-size: 48px; font-weight: 900; max-width: 400px;">Học và luyện thi</p>
+                    <p class="pb-3 m-0" style="color: #0071F9; font-size: 48px; font-weight: 900; max-width: 400px;">mọi lúc mọi nơi</p>
+                    <p style="color: #233876; font-size: 20px; font-weight: 400; line-height: 30px; max-width: 300px;  ">Trên mọi thiết bị chỉ với một nền tảng duy nhất - Prep</p>
+                    <div class="d-flex pt-4">
+                        <img class="d-block me-2" src="../assets/img/Google_Play_Black_76f09f6160.png" alt="" style="max-width: 120px;">
+                        <img class="d-block" src="../assets/img/App_Store_Black_e79f8b5b2c.png" alt="" style="max-width: 120px;">
+                    </div>
+                </div>
+                <div class="col d-flex justify-content-end align-items-end">
+                    <img src="../assets/img/app_introduce_vi.png" alt="">
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid text-center py-5" style="background-color: #F7FAFC; color: #233876;">
+        <div class="container" style="font-size: 50px; font-weight: 900; max-width: 700px;">
+            Được đồng hành bởi những đơn vị hàng đầu Việt Nam
+        </div>
+
+        <div class="slider">
+            <div class="slide-track">
+              <div class="slide">
+                <div class="carousel-item d-flex py-5 position-relative" data-bs-interval="1">  <!-- 7 giây -->
+                    <div class="partner rounded-3 d-inline-flex border p-2 mx-2 justify-content-center align-items-center position-relative" style="background-color: #F3F4F6; height: 120px; width: 240px;">
+                        <img src="../assets/img/blockchain_capital_1_c2f20f36dc.png" alt="" style="width: 100%; object-fit: contain;">
+                    </div>
+                    <div class="partner rounded-3 d-inline-flex border p-2 mx-2 justify-content-center align-items-center position-relative" style="background-color: #F3F4F6; height: 120px; width: 240px !important;">
+                        <img src="../assets/img/logo_ipp_c79ff0daf8.png" alt="" style="width: 40%; object-fit: contain;">
+                    </div>
+                    <div class="partner rounded-3 d-inline-flex border p-2 mx-2 justify-content-center align-items-center position-relative" style="background-color: #F3F4F6; height: 120px; width: 240px;">
+                        <img src="../assets/img/ipd_to_chuc_thi_ielts_f5cf16943a.png" alt="" style="width: 60%; object-fit: contain;">
+                    </div>
+                    <div class="partner rounded-3 d-inline-flex border p-2 mx-2 justify-content-center align-items-center position-relative" style="background-color: #F3F4F6; height: 120px; width: 240px;">
+                        <img src="../assets/img/blockchain_capital_1_c2f20f36dc.png" alt="" style="width: 100%; object-fit: contain;">
+                    </div>
+                    <div class="partner rounded-3 d-inline-flex border p-2 mx-2 justify-content-center align-items-center position-relative "style="background-color: #F3F4F6; height: 120px; width: 240px;">
+                        <img src="../assets/img/logo_ipp_c79ff0daf8.png" alt="" style="width: 40%; object-fit: contain;">
+                    </div>
+                    <div class="partner rounded-3 d-inline-flex border p-2 mx-2 justify-content-center align-items-center position-relative" style="background-color: #F3F4F6; height: 120px; width: 240px;">
+                        <img src="../assets/img/ipd_to_chuc_thi_ielts_f5cf16943a.png" alt="" style="width: 60%; object-fit: contain;">
+                    </div>
+                </div>
+              </div>
+              <div class="slide">
+                <div class="carousel-item d-flex py-5 position-relative" data-bs-interval="1">  <!-- 7 giây -->
+                    <div class="partner rounded-3 d-inline-flex border p-2 mx-2 justify-content-center align-items-center position-relative" style="background-color: #F3F4F6; height: 120px; width: 240px;">
+                        <img src="../assets/img/blockchain_capital_1_c2f20f36dc.png" alt="" style="width: 100%; object-fit: contain;">
+                    </div>
+                    <div class="partner rounded-3 d-inline-flex border p-2 mx-2 justify-content-center align-items-center position-relative" style="background-color: #F3F4F6; height: 120px; width: 240px !important;">
+                        <img src="../assets/img/logo_ipp_c79ff0daf8.png" alt="" style="width: 40%; object-fit: contain;">
+                    </div>
+                    <div class="partner rounded-3 d-inline-flex border p-2 mx-2 justify-content-center align-items-center position-relative" style="background-color: #F3F4F6; height: 120px; width: 240px;">
+                        <img src="../assets/img/ipd_to_chuc_thi_ielts_f5cf16943a.png" alt="" style="width: 60%; object-fit: contain;">
+                    </div>
+                    <div class="partner rounded-3 d-inline-flex border p-2 mx-2 justify-content-center align-items-center position-relative" style="background-color: #F3F4F6; height: 120px; width: 240px;">
+                        <img src="../assets/img/blockchain_capital_1_c2f20f36dc.png" alt="" style="width: 100%; object-fit: contain;">
+                    </div>
+                    <div class="partner rounded-3 d-inline-flex border p-2 mx-2 justify-content-center align-items-center position-relative "style="background-color: #F3F4F6; height: 120px; width: 240px;">
+                        <img src="../assets/img/logo_ipp_c79ff0daf8.png" alt="" style="width: 40%; object-fit: contain;">
+                    </div>
+                    <div class="partner rounded-3 d-inline-flex border p-2 mx-2 justify-content-center align-items-center position-relative" style="background-color: #F3F4F6; height: 120px; width: 240px;">
+                        <img src="../assets/img/ipd_to_chuc_thi_ielts_f5cf16943a.png" alt="" style="width: 60%; object-fit: contain;">
+                    </div>
+                </div>
+              </div>
+              <div class="slide">
+                <div class="carousel-item d-flex py-5 position-relative" data-bs-interval="1">  <!-- 7 giây -->
+                    <div class="partner rounded-3 d-inline-flex border p-2 mx-2 justify-content-center align-items-center position-relative" style="background-color: #F3F4F6; height: 120px; width: 240px;">
+                        <img src="../assets/img/blockchain_capital_1_c2f20f36dc.png" alt="" style="width: 100%; object-fit: contain;">
+                    </div>
+                    <div class="partner rounded-3 d-inline-flex border p-2 mx-2 justify-content-center align-items-center position-relative" style="background-color: #F3F4F6; height: 120px; width: 240px !important;">
+                        <img src="../assets/img/logo_ipp_c79ff0daf8.png" alt="" style="width: 40%; object-fit: contain;">
+                    </div>
+                    <div class="partner rounded-3 d-inline-flex border p-2 mx-2 justify-content-center align-items-center position-relative" style="background-color: #F3F4F6; height: 120px; width: 240px;">
+                        <img src="../assets/img/ipd_to_chuc_thi_ielts_f5cf16943a.png" alt="" style="width: 60%; object-fit: contain;">
+                    </div>
+                    <div class="partner rounded-3 d-inline-flex border p-2 mx-2 justify-content-center align-items-center position-relative" style="background-color: #F3F4F6; height: 120px; width: 240px;">
+                        <img src="../assets/img/blockchain_capital_1_c2f20f36dc.png" alt="" style="width: 100%; object-fit: contain;">
+                    </div>
+                    <div class="partner rounded-3 d-inline-flex border p-2 mx-2 justify-content-center align-items-center position-relative "style="background-color: #F3F4F6; height: 120px; width: 240px;">
+                        <img src="../assets/img/logo_ipp_c79ff0daf8.png" alt="" style="width: 40%; object-fit: contain;">
+                    </div>
+                    <div class="partner rounded-3 d-inline-flex border p-2 mx-2 justify-content-center align-items-center position-relative" style="background-color: #F3F4F6; height: 120px; width: 240px;">
+                        <img src="../assets/img/ipd_to_chuc_thi_ielts_f5cf16943a.png" alt="" style="width: 60%; object-fit: contain;">
+                    </div>
+                </div>
+              </div> <!-- Nhân đôi để nối tiếp mượt mà -->
+              <div class="slide">
+                <div class="carousel-item d-flex py-5 position-relative" data-bs-interval="1">  <!-- 7 giây -->
+                    <div class="partner rounded-3 d-inline-flex border p-2 mx-2 justify-content-center align-items-center position-relative" style="background-color: #F3F4F6; height: 120px; width: 240px;">
+                        <img src="../assets/img/blockchain_capital_1_c2f20f36dc.png" alt="" style="width: 100%; object-fit: contain;">
+                    </div>
+                    <div class="partner rounded-3 d-inline-flex border p-2 mx-2 justify-content-center align-items-center position-relative" style="background-color: #F3F4F6; height: 120px; width: 240px !important;">
+                        <img src="../assets/img/logo_ipp_c79ff0daf8.png" alt="" style="width: 40%; object-fit: contain;">
+                    </div>
+                    <div class="partner rounded-3 d-inline-flex border p-2 mx-2 justify-content-center align-items-center position-relative" style="background-color: #F3F4F6; height: 120px; width: 240px;">
+                        <img src="../assets/img/ipd_to_chuc_thi_ielts_f5cf16943a.png" alt="" style="width: 60%; object-fit: contain;">
+                    </div>
+                    <div class="partner rounded-3 d-inline-flex border p-2 mx-2 justify-content-center align-items-center position-relative" style="background-color: #F3F4F6; height: 120px; width: 240px;">
+                        <img src="../assets/img/blockchain_capital_1_c2f20f36dc.png" alt="" style="width: 100%; object-fit: contain;">
+                    </div>
+                    <div class="partner rounded-3 d-inline-flex border p-2 mx-2 justify-content-center align-items-center position-relative "style="background-color: #F3F4F6; height: 120px; width: 240px;">
+                        <img src="../assets/img/logo_ipp_c79ff0daf8.png" alt="" style="width: 40%; object-fit: contain;">
+                    </div>
+                    <div class="partner rounded-3 d-inline-flex border p-2 mx-2 justify-content-center align-items-center position-relative" style="background-color: #F3F4F6; height: 120px; width: 240px;">
+                        <img src="../assets/img/ipd_to_chuc_thi_ielts_f5cf16943a.png" alt="" style="width: 60%; object-fit: contain;">
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+
+    <div class="form container-fluid py-5 px-4" style="background-color: #F7FAFC;">
+        <div class="row" style="background: linear-gradient(to bottom, #001656, #0172FA); border-radius: 30px;">
+            <div class="col-6 p-5">
+                <div class="text-white px-5 py-3" style="font-size: 50px; font-weight: 900; max-width: 500px; line-height: 60px;">
+                    Bạn còn câu hỏi nào khác?
+                </div>
+                <div class="text-white px-5 py-3" style="font-size: 20px; max-width: 600px;">
+                    Hãy để lại thông tin, Prep sẽ liên hệ và hỗ trợ xử lý mọi vướng mắc của bạn                </div>
+            </div>
+            <div class="col-6 p-5">
+                <div>
+                    <div class="text-white p-1" style="font-weight: 500;">Họ và tên (*)</div>
+                    <input class="rounded w-100 border-0" style="padding: 12px;" type="text" placeholder="Nhập họ tên của bạn">
+                </div>
+                <div>
+                    <div class="text-white p-1" style="font-weight: 500;">Số điện thoại (*)</div>
+                    <input class="rounded w-100 border-0" style="padding: 12px;" type="text" placeholder="Nhập số điện thoại của bạn">
+                </div>
+                <div class="row d-flex">
+                    <div class="col-6">
+                        <div class="text-white p-1" style="font-weight: 500;">Năm sinh (*)</div>
+                        <input class="rounded w-100 border-0" style="padding: 12px;" type="text" placeholder="Nhập năm sinh của bạn">
+                    </div>
+                    <div class="col-6">
+                        <div class="text-white p-1" style="font-weight: 500;">Email (*)</div>
+                        <input class="rounded w-100 border-0" style="padding: 12px;" type="text" placeholder="Nhập Email của bạn">
+                    </div>
+                </div>
+                <div>
+                    <div class="text-white p-1" style="font-weight: 500;">Bạn là</div>
+                    <select class="rounded w-100 border-0" style="padding: 12px;" name="description" id="description" aria-placeholder="aaa">
+                        <option value="" selected disabled>Vui lòng chọn</option>
+                        <option value="student">Học sinh</option>
+                        <option value="student">Sinh viên</option>
+                        <option value="student">Đi làm</option>
+                        <option value="student">Khác</option>
+                    </select>
+                </div>
+                <div>
+                    <div class="text-white p-1" style="font-weight: 500;">Khóa học bạn quan tâm (*)</div>
+                    <select class="rounded w-100 border-0" style="padding: 12px;" name="description" id="description">
+                        <div class="rounded w-100 border-0 " style="padding: 12px; color: rgba(255, 255, 255, 0.7);">
+                            <option value="" selected disabled>Vui lòng chọn</option>
+                            <option value="student">IELTS</option>
+                            <option value="student">TOEIC</option>
+                            <option value="student">PrepTalk English</option>
+                            <option value="student">HSK</option>
+                        </div>
+                    </select>                
+                </div>
+                <div>
+                    <div class="text-white p-1" style="font-weight: 500;">Nội dung  </div>
+                    <div class="rounded w-100 border-0">
+                        <textarea class="rounded w-100 border-0" style="padding: 12px; min-height: 100px;" name="" id="" placeholder="Bạn có câu hỏi gì?&#10;• Hãy cho Prep biết trình độ hiện tại&#10;• Mục tiêu mong muốn"></textarea>
+                    </div>
+                </div>
+                <i class="text-white" style="font-size: smaller;">
+                    Bằng việc gửi đăng ký nhận tư vấn, bạn đã đồng ý với Chính sách bảo mật thông tin của Prep.
+                </i>
+                <div class="d-flex">
+                    <div class="btn btn-light text-primary my-3 ms-auto">
+                        Gửi câu hỏi <i style="font-weight: 900;" class="bi bi-arrow-right"></i>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <div class="footer container-fluid px-3">
+        <div>
+            <img src="../assets//img/linkedin-logo-png-file-11660255202tssvhgtrlr-removebg-preview.png" alt="" style="height:150px;">
+        </div>
+        <div class="row">
+            <div class="col-3 pb-4">
+                <p class="pb-2 fw-bold" style="color: #f1f1f1; font-size: 12px;">TẢI ỨNG DỤNG TRÊN ĐIỆN THOẠI</p>
+                <img class="d-block my-2" src="../assets/img/Google_Play_Black_76f09f6160.png" alt="" style="max-width: 120px;">
+                <img src="../assets/img/App_Store_Black_e79f8b5b2c.png" alt="" style="max-width: 120px;">
+                <p class="pt-5 pb-2 fw-bold" style="color: #f1f1f1; font-size: 12px;">KẾT NỐI VỚI CHÚNG TÔI</p>
+                <div>
+                    <div class="btn rounded-circle" style="background-color: rgba(255, 255, 255, 00.2);"><i class="bi bi-envelope"></i></div>
+                    <div class="btn rounded-circle ms-2" style="background-color: rgba(255, 255, 255, 00.2);"><i class="bi bi-facebook"></i></div>
+                </div>
+            </div>
+            <div class="col-3">
+                <p class="pb-2 fw-bold" style="color: #f1f1f1; font-size: 12px;">CHƯƠNG TRÌNH HỌC</p>
+                <ul class="list-unstyled" style="font-size: 14px">
+                    <li class="pb-3">IELTS</li>
+                    <li class="pb-3">HSK</li>
+                    <li class="pb-3">TOEIC</li>
+                    <li class="pb-3">Tiếng Anh giao tiếp</li>
+                    <li class="pb-3">Aptis</li>
+                </ul>
+            </div>
+            <div class="col-3">
+                <p class="pb-2 fw-bold" style="color: #f1f1f1; font-size: 12px;">TÍNH NĂNG NỔI BẬT</p>
+                <ul class="list-unstyled" style="font-size: 14px">
+                    <li class="pb-3">Luyện đề TOEIC 4 kỹ năng</li>
+                    <li class="pb-3">Phòng luyện viết IELTS PREP AI</li>
+                    <li class="pb-3">Phòng luyện nói IELTS PREP AI</li>
+                    <li class="pb-3">Phòng luyện Hán ngữ</li>
+                    <li class="pb-3">Teacher Bee AI</li>
+                </ul>
+            </div>
+            <div class="col-3">
+                <p class="pb-2 fw-bold" style="color: #f1f1f1; font-size: 12px;">VỀ PREP</p>
+                <ul class="list-unstyled" style="font-size: 14px">
+                    <li class="pb-3">Giới thiệu</li>
+                    <li class="pb-3">Chính sách dùng AI</li>
+                    <li class="pb-3">Điều kiện & điều khoản</li>
+                    <li class="pb-3">Chính sách bảo mật</li>
+                    <li class="pb-3">Chính sách thanh toán</li>
+                    <li class="pb-3">Tuyển dụng</li>
+                </ul>
+            </div>
+        </div>
+        <div class="border-top">
+            <div class="row py-5">
+                <div class="col-6 ">
+                    <p class="fw-bold" style="color: #f1f1f1; font-size: 12px;">CÔNG TY CỔ PHẦN CÔNG NGHỆ PREP</p>
+                    <div style="font-size: 14px">
+                        MSDN: 0109817671. <br>
+                        Địa chỉ liên hệ: Tầng 4 Tòa Vinaconex-34 Đ.Láng, Q.Đống Đa, TP.Hà Nội. <br>
+                        Địa chỉ kinh doanh: NO.21-C2 KĐT Nam Trung Yên, P.Trung Hòa, Q.Cầu Giấy, TP.Hà Nội. <br>
+                        Trụ sở: SN 20, ngách 234/35, Đ.Hoàng Quốc Việt, P.Cổ Nhuế 1, Q.Bắc Từ Liêm, TP.Hà Nội.
+                    </div>
+                </div>
+                <div class="col-6">
+                    <p class="fw-bold" style="color: #f1f1f1; font-size: 12px;">TRUNG TÂM ĐÀO TẠO NGOẠI NGỮ PREP</p>
+                    <div style="font-size: 14px">
+                        Phòng luyện ảo - Trải nghiệm thực tế - Công nghệ hàng đầu. <br>
+                        Hotline: 0931 42 8899. <br>
+                        Trụ sở: Số nhà 20, ngách 234/35, Đ.Hoàng Quốc Việt, P.Cổ Nhuế 1, Q.Bắc Từ Liêm, TP.Hà Nội. <br>
+                        Giấy chứng nhận hoạt động đào tạo, bồi dưỡng số 1309/QĐ-SGDĐT ngày 31 tháng 07 năm 2023 do Sở Giáo dục và Đào tạo Hà Nội cấp.
+                    </div>
+                </div>
+            </div>
+            <div class="pb-5">
+                <p class="fw-bold" style="color: #f1f1f1; font-size: 12px;">CHỨNG NHẬN BỞI</p>
+                <div >
+                    <img src="../assets/img/Frame_1597886663_0635c6f0da.png" alt="" style="height: 50px;">
+                    <img class="mx-3" src="../assets/img/Frame_1597886664_9526afa3e8.png" alt="" style="height: 50px;">
+                    <img src="../assets/img/Frame_1597886665_473c3315af.png" alt="" style="height: 30px;">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../assets/lib/wow/wow.min.js"></script>
+    <script src="../assets/lib/easing/easing.min.js"></script>
+    <script src="../assets/lib/waypoints/waypoints.min.js"></script>
+    <script src="../assets/lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <script src="../assets/js/main.js"></script>
+</body>
+</html>
