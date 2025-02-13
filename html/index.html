@@ -49,7 +49,7 @@
             <a href="#" class="p-0 text-white">
                 <img src="../assets/img/linkedin-logo-png-file-11660255202tssvhgtrlr-removebg-preview.png" alt="logo" style="height:150px;">
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <button class="navbar-toggler me-auto" type="button" data-bs-toggle="modal" data-bs-target="#navbarModal">
                 <span class="fa fa-bars"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse" style="height: 48px;">
@@ -86,7 +86,7 @@
                             <div class="row p-4">
                                 <div class="col-6">
                                     <div class="row">
-                                        <div class="col-3">
+                                        <div class="col-md-6 col-xl-3">
                                             <div class="dropdown-header text-white" style="font-size: small;">
                                                 TIẾNG ANH
                                             </div>
@@ -100,21 +100,21 @@
                                             <a href="#" class="dropdown-item pt-3">APTIS</a>
                                             <a href="#" class="dropdown-item pt-3">Tiếng Anh giao tiếp</a>
                                         </div>
-                                        <div class="col-3">
+                                        <div class="col-md-6 col-xl-3">
                                             <div class="dropdown-header text-white" style="font-size: small;">
                                                 TIẾNG TRUNG
                                             </div>
                                             <a href="#" class="dropdown-item pt-3">HSK</a>
                                             <a href="#" class="dropdown-item pt-3">Tiếng Trung giao tiếp</a>
                                         </div>
-                                        <div class="col-3">
+                                        <div class="col-md-6 col-xl-3">
                                             <div class="dropdown-header text-white" style="font-size: small;">
                                                 TIẾNG HÀN
                                             </div>
                                             <a href="#" class="dropdown-item pt-3">TOPIk</a>
                                             <a href="#" class="dropdown-item pt-3">Tiếng Hàn giao tiếp</a>
                                         </div>
-                                        <div class="col-3">
+                                        <div class="col-md-6 col-xl-3">
                                             <div class="dropdown-header text-white" style="font-size: small;"> 
                                                 TIẾNG NHẬT
                                             </div>
@@ -167,12 +167,12 @@
                         <a href="#" class="nav-link dropdown-toggle p-0" data-bs-toggle="dropdown">Tin tức</a>
                         <div class="dropdown-menu dropdown-menu-end m-0 p-0 full-width" style="background-color: rgba(0, 0, 0, 00.8) !important; width: 100vw !important; height: 200vh !important; position: fixed; top:72px; left: 0; right: 0;">
                             <div class="row p-4">
-                                <div class="col-3">
+                                <div class="col-md-6 col-xl-3">
                                     <a href="#" class="dropdown-item pt-3">Vinh danh học viên</a>
                                     <a href="#" class="dropdown-item pt-3">Sự kiện-Khuyến mãi</a>
                                     <a href="#" class="dropdown-item pt-3">Tuyển dụng</a>
                                 </div>
-                                <div class="col-3">
+                                <div class="col-md-6 col-xl-3">
                                     <a href="#">
                                         <img src="../assets/img/prep_tham_du_chung_ket_global_edtech_startup_awards_2024_c9f184aa49.jpg" alt="" class="w-100 rounded">
                                         <div class="title-blog text-white pt-3" style="display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; max-width: 100%; text-overflow: ellipsis; overflow: hidden; padding: 10px 0;;">TỰ HÀO PREP - ĐAI DIỆN ĐÔNG NAM Á THAM GIA GLOBAL EDTECH</div>
@@ -187,7 +187,7 @@
                                     </a>
                                     
                                 </div>
-                                <div class="col-3">
+                                <div class="col-md-6 col-xl-3">
                                     <a href="#">
                                         <img src="../assets/img/talkshow_toi_se_la_ai_trong_tuong_lai_prep_9a4a870be4.png" alt="" class="w-100 rounded">
                                         <div class="title-blog text-white pt-3" style="display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; max-width: 100%; text-overflow: ellipsis; overflow: hidden; padding: 10px 0;;">TỰ HÀO PREP - ĐAI DIỆN ĐÔNG NAM Á THAM GIA GLOBAL EDTECH</div>
@@ -202,7 +202,7 @@
                                     </a>
                                     
                                 </div>
-                                <div class="col-3">
+                                <div class="col-md-6 col-xl-3">
                                     <a href="#">
                                         <img src="../assets/img/vinh_danh_hvdc_ielts_thang_11_prep_a8e533bf7d.png" alt="" class="w-100 rounded">
                                         <div class="p-2 rounded" style="background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0,0,0,0.9)); position: relative; top:-23%">
@@ -222,26 +222,90 @@
             </div>
             <a href="#" class="btn btn-primary rounded-pill text-white py-2 px-4 flex-wrap flex-sm-shrink-0">Bắt đầu</a>
         </nav>
-        <div class="container text-white d-flex justify-content-center align-items-center text-center" style="font-family: 'Roboto', serif; font-size: 70px; font-weight: 900; padding: 100px 0; width: 50%;">
+        <div class="title-project container text-white d-flex justify-content-center align-items-center text-center" style="font-family: 'Roboto', serif; font-weight: 900; padding: 100px 0; width: 50%;">
             Nền tảng Học và Luyện thi thông minh
         </div>
         <a class="btn btn-light rounded-pill text-white py-3 px-5  text-center" href="#" style="color: #0071F9 !important; font-size: xx-large;">KHÁM PHÁ NGAY</a>
     </div>
 
+    <!-- Modal -->
+    <div class="modal fade" id="navbarModal" tabindex="-1" aria-labelledby="navbarModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-navbar w-100">
+                <div class="navbar-nav text-dark" style="background-color: #EAEAEA; width: 100%;">
+                    <a href="#" class="nav-item justify-content-start" style="background-color: #EAEAEA; width: 100%;">Trang chủ</a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle p-0" data-bs-toggle="dropdown" style="">Khóa học</a>
+                        <div class="dropdown-menu m-0" style="">
+                            <a href="#" class="dropdown-item pt-3">IELTS</a>
+                            <a href="#" class="dropdown-item pt-3">TOIEC</a>
+                            <a href="#" class="dropdown-item pt-3">HSK</a>
+                            <a href="#" class="dropdown-item pt-3">Preptalk English</a>
+                        </div>
+                    </div>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle p-0" data-bs-toggle="dropdown" style="">Kiểm tra đầu vào</a>
+                        <div class="dropdown-menu m-0" style="">
+                            <a href="#" class="dropdown-item pt-3">IELTS</a>
+                            <a href="#" class="dropdown-item pt-3">TOIEC</a>
+                        </div>
+                    </div>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle p-0" data-bs-toggle="dropdown" style="">Luyện đề</a>
+                        <div class="dropdown-menu m-0" style="">
+                            <a href="#" class="dropdown-item pt-3">Luyện đề IELTS</a>
+                            <a href="#" class="dropdown-item pt-3">Luyện đề THPT</a>
+                            <a href="#" class="dropdown-item pt-3">Luyện đề TOIEC</a>
+                        </div>
+                    </div>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle p-0" data-bs-toggle="dropdown" style="">Blog</a>
+                        <div class="dropdown-menu dropdown-menu-end m-0 p-0 full-width" style="position: fixed; top: 72px; left: 0; right: 0;">
+                            <div class="dropdown-item pt-3">
+                                Tiếng Anh
+                            </div>
+                            
+                            <div class="dropdown-item pt-3">Tiếng Trung</div>
+                            <div class="dropdown-item pt-3">Tiếng Hàn</div>
+                            <div class="dropdown-item pt-3">Tiếng Nhật</div>
+                        </div>
+                    </div>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle p-0" data-bs-toggle="dropdown">Tin tức</a>
+                        <div class="dropdown-menu dropdown-menu-end m-0 p-0 full-width" style="position: fixed; top:72px; left: 0; right: 0;">
+                                <div class="col-md-6 col-xl-3">
+                                    <a href="#" class="dropdown-item pt-3">Vinh danh học viên</a>
+                                    <a href="#" class="dropdown-item pt-3">Sự kiện-Khuyến mãi</a>
+                                    <a href="#" class="dropdown-item pt-3">Tuyển dụng</a>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+
     <div class="container-fluid position-relative py-5" style="background-color: #F7FAFC;">
         <div class="container py-5">
-            <div class="row">
-                <div class="col-6" style="font-family: 'Roboto', serif; font-size: 50px; color: #233876; font-weight: 900;">
+            <div class="row text-center text-md-start">
+                <div class="col-md-6 col-12 d-flex align-items-center align-items-md-start"
+                    style="font-family: 'Roboto', serif; font-size: 50px; color: #233876; font-weight: 900;">
                     Tinh thông mọi ngôn ngữ với chương trình đào tạo chất lượng cao
                 </div>
-                <div class="col-6 d-flex justify-content-end align-items-end" style="font-family: 'Roboto', serif; font-size: 18px; color: #233876;">
+                <div class="col-md-6 col-12 d-flex justify-content-center justify-content-md-end align-items-center align-items-md-end mt-3 mt-md-0"
+                    style="font-family: 'Roboto', serif; font-size: 18px; color: #233876;">
                     <p style="max-width: 350px;">Học ngoại ngữ thật dễ dàng với lộ trình Học & Luyện Thi toàn diện, được cá nhân hóa riêng biệt.</p>
                 </div>
             </div>
         </div>
         <div class="container">
             <div class="row g-4">
-                <div class="col-md-6 col-lg-4 col-xl-3 " style=" border-radius: 10%;">
+                <div class="col-6 col-lg-3" style=" border-radius: 10%;">
                     <div class="certificates btn text-white p-4" style="background: linear-gradient(to bottom right, #0040E8, #339FF5); border-radius: 10%;">
                         <div class="fw-bold fs-4" style="font-family: 'Roboto', serif;">
                             IELTS
@@ -256,7 +320,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-4 col-xl-3 " style=" border-radius: 10%;">
+                <div class="col-6 col-lg-3" style=" border-radius: 10%;">
                     <div class="certificates btn text-white p-4" style="background: linear-gradient(to bottom right, #ff0909, #f75252); border-radius: 10%;">
                         <div class="fw-bold fs-4" style="font-family: 'Roboto', serif;">
                             IELTS
@@ -271,7 +335,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-4 col-xl-3 " style=" border-radius: 10%;">
+                <div class="col-6 col-lg-3" style=" border-radius: 10%;">
                     <div class="certificates btn text-white p-4" style="background: linear-gradient(to bottom left, #008829, #00D340); border-radius: 10%;">
                         <div class="fw-bold fs-4" style="font-family: 'Roboto', serif;">
                             IELTS
@@ -286,7 +350,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-4 col-xl-3 " style=" border-radius: 10%;">
+                <div class="col-6 col-lg-3" style=" border-radius: 10%;">
                     <div class="certificates btn text-white p-4" style="background: linear-gradient(to bottom left, #FFA600, #FFD324); border-radius: 10%;">
                         <div class="fw-bold fs-4" style="font-family: 'Roboto', serif;">
                             IELTS
@@ -317,17 +381,22 @@
     <div class="container-fluid py-5" style="background-color: #F7FAFC;">
         <div class="container py-5">
             <div class="row">
-                <div class="col" style="line-height: 60px;">
-                    <p class="pt-4 m-0" style="color: #233876; font-size: 48px; font-weight: 900; max-width: 400px;">Học và luyện thi</p>
-                    <p class="pb-3 m-0" style="color: #0071F9; font-size: 48px; font-weight: 900; max-width: 400px;">mọi lúc mọi nơi</p>
-                    <p style="color: #233876; font-size: 20px; font-weight: 400; line-height: 30px; max-width: 300px;  ">Trên mọi thiết bị chỉ với một nền tảng duy nhất - Prep</p>
-                    <div class="d-flex pt-4">
-                        <img class="d-block me-2" src="../assets/img/Google_Play_Black_76f09f6160.png" alt="" style="max-width: 120px;">
-                        <img class="d-block" src="../assets/img/App_Store_Black_e79f8b5b2c.png" alt="" style="max-width: 120px;">
+                <div class= "col-12 col-lg-4 text-center text-lg-start" style="line-height: 60px;">
+                    <div class="d-inline-block text-center pt-4 m-0">
+                        <div class="text-center text-lg-start" style="color: #233876; font-size: 48px; font-weight: 900; max-width: 400px;">Học và luyện thi</div>
+                        <div class="text-center text-lg-start" style="color: #0071F9; font-size: 48px; font-weight: 900; max-width: 400px;">mọi lúc mọi nơi</div>
+                        <p class="text-center text-lg-start" style="color: #233876; font-size: 20px; font-weight: 400; line-height: 30px; max-width: 400px;  ">Trên mọi thiết bị chỉ với một nền tảng duy nhất - Prep</p>
+                    </div>
+
+                    <div class="text-center pt-4">
+                        <div class="d-flex justify-content-center">
+                            <img class="d-block me-2" src="../assets/img/Google_Play_Black_76f09f6160.png" alt="" style="max-width: 120px;">
+                            <img class="d-block" src="../assets/img/App_Store_Black_e79f8b5b2c.png" alt="" style="max-width: 120px;">
+                        </div>
                     </div>
                 </div>
-                <div class="col d-flex justify-content-end align-items-end">
-                    <img src="../assets/img/app_introduce_vi.png" alt="">
+                <div class="col-lg-8 col-12 d-flex justify-content-lg-end align-items-lg-end justify-content-center">
+                    <img class="w-lg-80 w-100" src="../assets/img/app_introduce_vi.png" alt="">
                 </div>
                 
             </div>
@@ -346,41 +415,19 @@
                     <div class="partner rounded-3 d-inline-flex border p-2 mx-2 justify-content-center align-items-center position-relative" style="background-color: #F3F4F6; height: 120px; width: 240px;">
                         <img src="../assets/img/blockchain_capital_1_c2f20f36dc.png" alt="" style="width: 100%; object-fit: contain;">
                     </div>
-                    <div class="partner rounded-3 d-inline-flex border p-2 mx-2 justify-content-center align-items-center position-relative" style="background-color: #F3F4F6; height: 120px; width: 240px !important;">
+                    <div class="partner rounded-3 d-inline-flex border p-2 mx-2 justify-content-center align-items-center position-relative" style="background-color: #F3F4F6; height: 120px; width: 240px;">
                         <img src="../assets/img/logo_ipp_c79ff0daf8.png" alt="" style="width: 40%; object-fit: contain;">
                     </div>
                     <div class="partner rounded-3 d-inline-flex border p-2 mx-2 justify-content-center align-items-center position-relative" style="background-color: #F3F4F6; height: 120px; width: 240px;">
                         <img src="../assets/img/ipd_to_chuc_thi_ielts_f5cf16943a.png" alt="" style="width: 60%; object-fit: contain;">
                     </div>
-                    <div class="partner rounded-3 d-inline-flex border p-2 mx-2 justify-content-center align-items-center position-relative" style="background-color: #F3F4F6; height: 120px; width: 240px;">
+                    <div class="partner rounded-3 d-none d-md-inline-flex border p-2 mx-2 justify-content-center align-items-center position-relative" style="background-color: #F3F4F6; height: 120px; width: 240px;">
                         <img src="../assets/img/blockchain_capital_1_c2f20f36dc.png" alt="" style="width: 100%; object-fit: contain;">
                     </div>
-                    <div class="partner rounded-3 d-inline-flex border p-2 mx-2 justify-content-center align-items-center position-relative "style="background-color: #F3F4F6; height: 120px; width: 240px;">
+                    <div class="partner rounded-3 d-none d-md-inline-flex border p-2 mx-2 justify-content-center align-items-center position-relative "style="background-color: #F3F4F6; height: 120px; width: 240px;">
                         <img src="../assets/img/logo_ipp_c79ff0daf8.png" alt="" style="width: 40%; object-fit: contain;">
                     </div>
-                    <div class="partner rounded-3 d-inline-flex border p-2 mx-2 justify-content-center align-items-center position-relative" style="background-color: #F3F4F6; height: 120px; width: 240px;">
-                        <img src="../assets/img/ipd_to_chuc_thi_ielts_f5cf16943a.png" alt="" style="width: 60%; object-fit: contain;">
-                    </div>
-                </div>
-              </div>
-              <div class="slide">
-                <div class="carousel-item d-flex py-5 position-relative" data-bs-interval="1">  <!-- 7 giây -->
-                    <div class="partner rounded-3 d-inline-flex border p-2 mx-2 justify-content-center align-items-center position-relative" style="background-color: #F3F4F6; height: 120px; width: 240px;">
-                        <img src="../assets/img/blockchain_capital_1_c2f20f36dc.png" alt="" style="width: 100%; object-fit: contain;">
-                    </div>
-                    <div class="partner rounded-3 d-inline-flex border p-2 mx-2 justify-content-center align-items-center position-relative" style="background-color: #F3F4F6; height: 120px; width: 240px !important;">
-                        <img src="../assets/img/logo_ipp_c79ff0daf8.png" alt="" style="width: 40%; object-fit: contain;">
-                    </div>
-                    <div class="partner rounded-3 d-inline-flex border p-2 mx-2 justify-content-center align-items-center position-relative" style="background-color: #F3F4F6; height: 120px; width: 240px;">
-                        <img src="../assets/img/ipd_to_chuc_thi_ielts_f5cf16943a.png" alt="" style="width: 60%; object-fit: contain;">
-                    </div>
-                    <div class="partner rounded-3 d-inline-flex border p-2 mx-2 justify-content-center align-items-center position-relative" style="background-color: #F3F4F6; height: 120px; width: 240px;">
-                        <img src="../assets/img/blockchain_capital_1_c2f20f36dc.png" alt="" style="width: 100%; object-fit: contain;">
-                    </div>
-                    <div class="partner rounded-3 d-inline-flex border p-2 mx-2 justify-content-center align-items-center position-relative "style="background-color: #F3F4F6; height: 120px; width: 240px;">
-                        <img src="../assets/img/logo_ipp_c79ff0daf8.png" alt="" style="width: 40%; object-fit: contain;">
-                    </div>
-                    <div class="partner rounded-3 d-inline-flex border p-2 mx-2 justify-content-center align-items-center position-relative" style="background-color: #F3F4F6; height: 120px; width: 240px;">
+                    <div class="partner rounded-3 d-none d-md-inline-flex border p-2 mx-2 justify-content-center align-items-center position-relative" style="background-color: #F3F4F6; height: 120px; width: 240px;">
                         <img src="../assets/img/ipd_to_chuc_thi_ielts_f5cf16943a.png" alt="" style="width: 60%; object-fit: contain;">
                     </div>
                 </div>
@@ -396,13 +443,35 @@
                     <div class="partner rounded-3 d-inline-flex border p-2 mx-2 justify-content-center align-items-center position-relative" style="background-color: #F3F4F6; height: 120px; width: 240px;">
                         <img src="../assets/img/ipd_to_chuc_thi_ielts_f5cf16943a.png" alt="" style="width: 60%; object-fit: contain;">
                     </div>
+                    <div class="partner rounded-3 d-none d-md-inline-flex border p-2 mx-2 justify-content-center align-items-center position-relative" style="background-color: #F3F4F6; height: 120px; width: 240px;">
+                        <img src="../assets/img/blockchain_capital_1_c2f20f36dc.png" alt="" style="width: 100%; object-fit: contain;">
+                    </div>
+                    <div class="partner rounded-3 d-none d-md-inline-flex border p-2 mx-2 justify-content-center align-items-center position-relative "style="background-color: #F3F4F6; height: 120px; width: 240px;">
+                        <img src="../assets/img/logo_ipp_c79ff0daf8.png" alt="" style="width: 40%; object-fit: contain;">
+                    </div>
+                    <div class="partner rounded-3 d-none d-md-inline-flex border p-2 mx-2 justify-content-center align-items-center position-relative" style="background-color: #F3F4F6; height: 120px; width: 240px;">
+                        <img src="../assets/img/ipd_to_chuc_thi_ielts_f5cf16943a.png" alt="" style="width: 60%; object-fit: contain;">
+                    </div>
+                </div>
+              </div>
+              <div class="slide">
+                <div class="carousel-item d-flex py-5 position-relative" data-bs-interval="1">  <!-- 7 giây -->
                     <div class="partner rounded-3 d-inline-flex border p-2 mx-2 justify-content-center align-items-center position-relative" style="background-color: #F3F4F6; height: 120px; width: 240px;">
                         <img src="../assets/img/blockchain_capital_1_c2f20f36dc.png" alt="" style="width: 100%; object-fit: contain;">
                     </div>
-                    <div class="partner rounded-3 d-inline-flex border p-2 mx-2 justify-content-center align-items-center position-relative "style="background-color: #F3F4F6; height: 120px; width: 240px;">
+                    <div class="partner rounded-3 d-inline-flex border p-2 mx-2 justify-content-center align-items-center position-relative" style="background-color: #F3F4F6; height: 120px; width: 240px !important;">
                         <img src="../assets/img/logo_ipp_c79ff0daf8.png" alt="" style="width: 40%; object-fit: contain;">
                     </div>
                     <div class="partner rounded-3 d-inline-flex border p-2 mx-2 justify-content-center align-items-center position-relative" style="background-color: #F3F4F6; height: 120px; width: 240px;">
+                        <img src="../assets/img/ipd_to_chuc_thi_ielts_f5cf16943a.png" alt="" style="width: 60%; object-fit: contain;">
+                    </div>
+                    <div class="partner rounded-3 d-none d-md-inline-flex border p-2 mx-2 justify-content-center align-items-center position-relative" style="background-color: #F3F4F6; height: 120px; width: 240px;">
+                        <img src="../assets/img/blockchain_capital_1_c2f20f36dc.png" alt="" style="width: 100%; object-fit: contain;">
+                    </div>
+                    <div class="partner rounded-3 d-none d-md-inline-flex border p-2 mx-2 justify-content-center align-items-center position-relative "style="background-color: #F3F4F6; height: 120px; width: 240px;">
+                        <img src="../assets/img/logo_ipp_c79ff0daf8.png" alt="" style="width: 40%; object-fit: contain;">
+                    </div>
+                    <div class="partner rounded-3 d-none d-md-inline-flex border p-2 mx-2 justify-content-center align-items-center position-relative" style="background-color: #F3F4F6; height: 120px; width: 240px;">
                         <img src="../assets/img/ipd_to_chuc_thi_ielts_f5cf16943a.png" alt="" style="width: 60%; object-fit: contain;">
                     </div>
                 </div>
@@ -418,13 +487,13 @@
                     <div class="partner rounded-3 d-inline-flex border p-2 mx-2 justify-content-center align-items-center position-relative" style="background-color: #F3F4F6; height: 120px; width: 240px;">
                         <img src="../assets/img/ipd_to_chuc_thi_ielts_f5cf16943a.png" alt="" style="width: 60%; object-fit: contain;">
                     </div>
-                    <div class="partner rounded-3 d-inline-flex border p-2 mx-2 justify-content-center align-items-center position-relative" style="background-color: #F3F4F6; height: 120px; width: 240px;">
+                    <div class="partner rounded-3 d-none d-md-inline-flex border p-2 mx-2 justify-content-center align-items-center position-relative" style="background-color: #F3F4F6; height: 120px; width: 240px;">
                         <img src="../assets/img/blockchain_capital_1_c2f20f36dc.png" alt="" style="width: 100%; object-fit: contain;">
                     </div>
-                    <div class="partner rounded-3 d-inline-flex border p-2 mx-2 justify-content-center align-items-center position-relative "style="background-color: #F3F4F6; height: 120px; width: 240px;">
+                    <div class="partner rounded-3 d-none d-md-inline-flex border p-2 mx-2 justify-content-center align-items-center position-relative "style="background-color: #F3F4F6; height: 120px; width: 240px;">
                         <img src="../assets/img/logo_ipp_c79ff0daf8.png" alt="" style="width: 40%; object-fit: contain;">
                     </div>
-                    <div class="partner rounded-3 d-inline-flex border p-2 mx-2 justify-content-center align-items-center position-relative" style="background-color: #F3F4F6; height: 120px; width: 240px;">
+                    <div class="partner rounded-3 d-none d-md-inline-flex border p-2 mx-2 justify-content-center align-items-center position-relative" style="background-color: #F3F4F6; height: 120px; width: 240px;">
                         <img src="../assets/img/ipd_to_chuc_thi_ielts_f5cf16943a.png" alt="" style="width: 60%; object-fit: contain;">
                     </div>
                 </div>
@@ -435,14 +504,14 @@
 
     <div class="form container-fluid py-5 px-4" style="background-color: #F7FAFC;">
         <div class="row" style="background: linear-gradient(to bottom, #001656, #0172FA); border-radius: 30px;">
-            <div class="col-6 p-5">
+            <div class="col-lg-6 col-12 p-5">
                 <div class="text-white px-5 py-3" style="font-size: 50px; font-weight: 900; max-width: 500px; line-height: 60px;">
                     Bạn còn câu hỏi nào khác?
                 </div>
                 <div class="text-white px-5 py-3" style="font-size: 20px; max-width: 600px;">
                     Hãy để lại thông tin, Prep sẽ liên hệ và hỗ trợ xử lý mọi vướng mắc của bạn                </div>
             </div>
-            <div class="col-6 p-5">
+            <div class="col-lg-6 col-12 p-5">
                 <div>
                     <div class="text-white p-1" style="font-weight: 500;">Họ và tên (*)</div>
                     <input class="rounded w-100 border-0" style="padding: 12px;" type="text" placeholder="Nhập họ tên của bạn">
@@ -452,11 +521,11 @@
                     <input class="rounded w-100 border-0" style="padding: 12px;" type="text" placeholder="Nhập số điện thoại của bạn">
                 </div>
                 <div class="row d-flex">
-                    <div class="col-6">
+                    <div class="col-lg-6 col-12">
                         <div class="text-white p-1" style="font-weight: 500;">Năm sinh (*)</div>
                         <input class="rounded w-100 border-0" style="padding: 12px;" type="text" placeholder="Nhập năm sinh của bạn">
                     </div>
-                    <div class="col-6">
+                    <div class="col-lg-6 col-12">
                         <div class="text-white p-1" style="font-weight: 500;">Email (*)</div>
                         <input class="rounded w-100 border-0" style="padding: 12px;" type="text" placeholder="Nhập Email của bạn">
                     </div>
@@ -507,7 +576,7 @@
             <img src="../assets//img/linkedin-logo-png-file-11660255202tssvhgtrlr-removebg-preview.png" alt="" style="height:150px;">
         </div>
         <div class="row">
-            <div class="col-3 pb-4">
+            <div class="col-md-6 col-xl-3 pb-4">
                 <p class="pb-2 fw-bold" style="color: #f1f1f1; font-size: 12px;">TẢI ỨNG DỤNG TRÊN ĐIỆN THOẠI</p>
                 <img class="d-block my-2" src="../assets/img/Google_Play_Black_76f09f6160.png" alt="" style="max-width: 120px;">
                 <img src="../assets/img/App_Store_Black_e79f8b5b2c.png" alt="" style="max-width: 120px;">
@@ -517,7 +586,7 @@
                     <div class="btn rounded-circle ms-2" style="background-color: rgba(255, 255, 255, 00.2);"><i class="bi bi-facebook"></i></div>
                 </div>
             </div>
-            <div class="col-3">
+            <div class="col-md-6 col-xl-3">
                 <p class="pb-2 fw-bold" style="color: #f1f1f1; font-size: 12px;">CHƯƠNG TRÌNH HỌC</p>
                 <ul class="list-unstyled" style="font-size: 14px">
                     <li class="pb-3">IELTS</li>
@@ -527,7 +596,7 @@
                     <li class="pb-3">Aptis</li>
                 </ul>
             </div>
-            <div class="col-3">
+            <div class="col-md-6 col-xl-3">
                 <p class="pb-2 fw-bold" style="color: #f1f1f1; font-size: 12px;">TÍNH NĂNG NỔI BẬT</p>
                 <ul class="list-unstyled" style="font-size: 14px">
                     <li class="pb-3">Luyện đề TOEIC 4 kỹ năng</li>
@@ -537,7 +606,7 @@
                     <li class="pb-3">Teacher Bee AI</li>
                 </ul>
             </div>
-            <div class="col-3">
+            <div class="col-md-6 col-xl-3">
                 <p class="pb-2 fw-bold" style="color: #f1f1f1; font-size: 12px;">VỀ PREP</p>
                 <ul class="list-unstyled" style="font-size: 14px">
                     <li class="pb-3">Giới thiệu</li>
@@ -551,7 +620,7 @@
         </div>
         <div class="border-top">
             <div class="row py-5">
-                <div class="col-6 ">
+                <div class="col-12 col-md-6">
                     <p class="fw-bold" style="color: #f1f1f1; font-size: 12px;">CÔNG TY CỔ PHẦN CÔNG NGHỆ PREP</p>
                     <div style="font-size: 14px">
                         MSDN: 0109817671. <br>
@@ -560,7 +629,7 @@
                         Trụ sở: SN 20, ngách 234/35, Đ.Hoàng Quốc Việt, P.Cổ Nhuế 1, Q.Bắc Từ Liêm, TP.Hà Nội.
                     </div>
                 </div>
-                <div class="col-6">
+                <div class="col-12 col-md-6">
                     <p class="fw-bold" style="color: #f1f1f1; font-size: 12px;">TRUNG TÂM ĐÀO TẠO NGOẠI NGỮ PREP</p>
                     <div style="font-size: 14px">
                         Phòng luyện ảo - Trải nghiệm thực tế - Công nghệ hàng đầu. <br>

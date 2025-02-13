@@ -148,14 +148,45 @@
     // }
 
     // setInterval(move, 10);
+    let a = document.querySelectorAll('.dropdown-submenu > .dropdown-item');
 
-    document.querySelector('#myCarousel').addEventListener('slide.bs.carousel', function (event) {
-        let activeItem = document.querySelector('.carousel-item.active');
-        let nextItem = event.relatedTarget;
-    
-        activeItem.classList.add('carousel-item-left');
-        nextItem.classList.add('carousel-item-left');
-    });
+    for (let i=0; i < a.length; i++) {
+        a[i].addEventListener("click", function (e) {
+            console.log(1111);
+            e.preventDefault();
+            let nextMenu = this.nextElementSibling;
+            if (nextMenu && nextMenu.classList.contains("dropdown-menu")) {
+                console.log(1111);
+                // Đóng tất cả các menu con khác trước khi mở menu mới
+                document.querySelectorAll('.dropdown-submenu .dropdown-menu').forEach(function (menu) {
+                    if (menu !== nextMenu) {
+                        menu.style.display = "none";
+                    }
+                });
+                // Toggle trạng thái menu con
+                nextMenu.style.display = nextMenu.style.display === "block" ? "none" : "block";
+            }
+        });
+    }
+        document.querySelectorAll('.dropdown-submenu > .dropdown-item').forEach(function (submenu) {
+            console.log(submenu);
+            submenu.addEventListener("click", function (e) {
+                console.log(1111);
+                e.preventDefault();
+                let nextMenu = this.nextElementSibling;
+                if (nextMenu && nextMenu.classList.contains("dropdown-menu")) {
+                    console.log(1111);
+                    // Đóng tất cả các menu con khác trước khi mở menu mới
+                    document.querySelectorAll('.dropdown-submenu .dropdown-menu').forEach(function (menu) {
+                        // if (menu !== nextMenu) {
+                        //     menu.style.display = "none";
+                        // }
+                    });
+                    // Toggle trạng thái menu con
+                    nextMenu.style.display = nextMenu.style.display === "block" ? "none" : "block";
+                }
+            });
+        });
 
 })(jQuery);
 

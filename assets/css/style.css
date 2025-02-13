@@ -1265,3 +1265,59 @@
 select:focus, textarea:focus {
     outline: none;
 }
+
+@media (min-width: 992px) {
+    .w-lg-80 {
+      width: 80% !important;
+    }
+  }
+
+
+.title-project {
+    font-size: 70px;
+}
+
+@media (max-width: 1200px) {
+    .title-project {
+        font-size: 60px; /* Kích thước font cho màn hình nhỏ hơn 768px */
+    }
+}
+
+@media (max-width: 768px) {
+    .title-project {
+        font-size: 50px; /* Kích thước font cho màn hình nhỏ hơn 768px */
+    }
+}
+
+@media (max-width: 576px) {
+    .title-project {
+        font-size: 38px; /* Kích thước font cho màn hình nhỏ hơn 576px */
+    }
+}
+
+.modal-navbar .nav-item, .modal-navbar .dropdown-menu .dropdown-item{
+    justify-content: start !important;
+    color: #233876 !important;
+    width: 100%;
+}
+
+.modal-navbar .nav-link {
+    justify-content: start !important;
+    color: #233876 !important;
+    width: 100%;
+}
+
+.modal-navbar .dropdown-menu .dropdown-item {
+    font-weight: 600;
+}
+
+.modal-navbar .dropdown {
+    display: block !important;
+}
+
+.modal-navbar .dropdown-menu {
+    position: relative !important;
+    transform: none !important;
+    border: 0 !important;
+    background-color: transparent;
+}
